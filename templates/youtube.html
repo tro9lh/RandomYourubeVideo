@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <style type="text/css">
+  body {
+    background-color: #6666CC;
+  }
+
+  .fullcontent{
+    margin-top: 0px;
+    display: flex;
+    justify-content: space-around;
+  }
+  .left{
+
+  }
+  .center{
+
+
+  }
+  .right{
+
+  }
+  .video{
+    margin-top: 100px;
+  }
+  .button{
+    display: flex;
+    justify-content: center;
+  }
+  </style>
+  <title>Random YouTube video</title>
+</head>
+<body>
+  <div class="fullcontent">
+    <div class="left">
+      <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- 300-1050 -->
+<ins class="adsbygoogle"
+     style="display:inline-block;width:300px;height:1050px"
+     data-ad-client="ca-pub-9195469789572330"
+     data-ad-slot="9340531805"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+    </div>
+    <div class="center">
+      <div class="video">
+        <iframe width="960" height="540" src="https://www.youtube.com/embed/{{ link }}?autoplay=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+      <div class="button">
+        <img src="{{url_for('static', filename='PixelArt.png')}}" onClick="window.location.reload()" alt="NEXT" />
+      </div>
+
+    </div>
+    <div class="right">
+      <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- 300-1050 -->
+<ins class="adsbygoogle"
+     style="display:inline-block;width:300px;height:1050px"
+     data-ad-client="ca-pub-9195469789572330"
+     data-ad-slot="9340531805"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+    </div>
+  </div>
+</body>
+</html>
